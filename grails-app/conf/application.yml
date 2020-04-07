@@ -1,7 +1,4 @@
 ---
-server:
-    contextPath: '/jukebox'
-    port: 8100
 grails:
     profile: web
     codegen:
