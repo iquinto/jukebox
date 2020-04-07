@@ -62,6 +62,18 @@ dependencies {
     testCompile "org.seleniumhq.selenium:selenium-support:3.6.0"
     testRuntime "org.seleniumhq.selenium:selenium-chrome-driver:3.6.0"
     testRuntime "org.seleniumhq.selenium:selenium-firefox-driver:3.6.0"
+
+
+    // testcontainers
+    testCompile 'com.zaxxer:HikariCP:3.4.2'
+    testCompile "org.testcontainers:spock:1.13.0"
+    testCompile "org.testcontainers:testcontainers:1.13.0"
+    testCompile "org.testcontainers:postgresql:1.13.0"
+    testCompile "org.testcontainers:oracle-xe:1.13.0"
+    testCompile "org.testcontainers:selenium:1.13.0"
+    testRuntime 'org.postgresql:postgresql:42.2.12'
+    
+    
 }
 
 bootRun {

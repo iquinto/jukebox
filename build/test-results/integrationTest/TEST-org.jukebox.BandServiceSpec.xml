@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jukebox.BandServiceSpec" tests="2" skipped="0" failures="1" errors="0" timestamp="2020-04-07T18:07:06" hostname="MacBook-Pro-de-Isagani.local" time="10.231">
+  <properties/>
+  <testcase name="test get" classname="org.jukebox.BandServiceSpec" time="9.892">
+    <failure message="Condition not satisfied:&#10;&#10;bandService.count() == 2&#10;|           |       |&#10;|           1       false&#10;org.jukebox.$BandServiceImplementation@135298b4&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+
+bandService.count() == 2
+|           |       |
+|           1       false
+org.jukebox.$BandServiceImplementation@135298b4
+
+	at org.jukebox.BandServiceSpec.$tt__$spock_feature_1_0(BandServiceSpec.groovy:34)
+	at org.jukebox.BandServiceSpec.test get_closure2(BandServiceSpec.groovy)
+	at groovy.lang.Closure.call(Closure.java:418)
+	at groovy.lang.Closure.call(Closure.java:434)
+	at grails.gorm.transactions.GrailsTransactionTemplate$1.doInTransaction(GrailsTransactionTemplate.groovy:68)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:133)
+	at grails.gorm.transactions.GrailsTransactionTemplate.executeAndRollback(GrailsTransactionTemplate.groovy:65)
+	at org.jukebox.BandServiceSpec.test get(BandServiceSpec.groovy)
+</failure>
+  </testcase>
+  <testcase name="test insert" classname="org.jukebox.BandServiceSpec" time="0.339"/>
+  <system-out><![CDATA[[BASE-INTEGRATION-TEST] - Postgres is not started. Running...
+[BASE-INTEGRATION-TEST] - Migrating DataBase...
+Grails application running at http://localhost:60182/jukebox in environment: test
+[BASE-INTEGRATION-TEST] - Stopping Postgres...
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
