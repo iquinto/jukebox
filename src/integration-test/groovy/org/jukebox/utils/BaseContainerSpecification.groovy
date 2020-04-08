@@ -30,8 +30,6 @@ abstract class BaseContainerSpecification extends Specification{
         ].each { k, v ->
             System.setProperty(k, v)
         }
-
-
         migrateDatabase()
     }
 

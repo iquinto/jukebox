@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="904634e1-db3e-4847-ac72-1f649a6e82e8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/3.5/taskHistory/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.5/taskHistory/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.5/taskHistory/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.5/taskHistory/fileSnapshots.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.5/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.5/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.5/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.5/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/integrationTest/org/jukebox/utils/BaseContainerSpecification.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/integrationTest/org/jukebox/utils/BaseContainerSpecification.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/test/org/jukebox/BandControllerSpec.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/test/org/jukebox/BandControllerSpec.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/test/org/jukebox/BandSpec.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/test/org/jukebox/BandSpec.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/classes/org.jukebox.services.BandServiceSpec.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/classes/org.jukebox.services.BandServiceSpec.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/packages/org.jukebox.services.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/packages/org.jukebox.services.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/integrationTest/TEST-org.jukebox.services.BandServiceSpec.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/integrationTest/TEST-org.jukebox.services.BandServiceSpec.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/integrationTest/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/integrationTest/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/integrationTest/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/integrationTest/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grails-app/conf/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/conf/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/integration-test/groovy/org/jukebox/services/BandServiceSpec.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/integration-test/groovy/org/jukebox/services/BandServiceSpec.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/integration-test/groovy/org/jukebox/utils/BaseContainerSpecification.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/integration-test/groovy/org/jukebox/utils/BaseContainerSpecification.groovy" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -85,20 +69,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/integration-test/groovy/org/jukebox/utils/BaseContainerSpecification.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="25" column="32" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="32" />
+            <state relative-caret-position="193">
+              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="93" column="20" selection-start-line="93" selection-start-column="4" selection-end-line="93" selection-end-column="20" />
+            <state relative-caret-position="332">
+              <caret line="87" column="22" lean-forward="true" selection-start-line="87" selection-start-column="22" selection-end-line="87" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -106,8 +90,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/conf/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="102" column="37" selection-start-line="102" selection-start-column="37" selection-end-line="102" selection-end-column="37" />
+            <state relative-caret-position="629">
+              <caret line="102" selection-start-line="102" selection-end-line="107" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/integration-test/groovy/org/jukebox/services/BandServiceSpec.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+              <folding>
+                <element signature="e#30#66#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -140,10 +136,10 @@
         <option value="$PROJECT_DIR$/grails-app/domain/org/jukebox/Band.groovy" />
         <option value="$PROJECT_DIR$/src/integration-test/groovy/org/jukebox/utils/insert.sql" />
         <option value="$PROJECT_DIR$/src/integration-test/groovy/org/jukebox/utils/base.sql" />
-        <option value="$PROJECT_DIR$/src/integration-test/groovy/org/jukebox/services/BandServiceSpec.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/application.yml" />
-        <option value="$PROJECT_DIR$/src/integration-test/groovy/org/jukebox/utils/BaseContainerSpecification.groovy" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/integration-test/groovy/org/jukebox/services/BandServiceSpec.groovy" />
+        <option value="$PROJECT_DIR$/src/integration-test/groovy/org/jukebox/utils/BaseContainerSpecification.groovy" />
       </list>
     </option>
   </component>
@@ -523,26 +519,11 @@
       <option name="presentableId" value="Default" />
       <updated>1586279967006</updated>
       <workItem from="1586279971761" duration="9161000" />
-      <workItem from="1586296803269" duration="6165000" />
+      <workItem from="1586296803269" duration="7013000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BandServiceSpec - 2020.04.08 at 12h 27m 15s.xml">
-      <configuration name="BandServiceSpec" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="BandServiceSpec - 2020.04.08 at 12h 29m 33s.xml">
-      <configuration name="BandServiceSpec" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="BandServiceSpec - 2020.04.08 at 12h 30m 33s.xml">
-      <configuration name="BandServiceSpec" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="BandServiceSpec - 2020.04.08 at 12h 31m 30s.xml">
-      <configuration name="BandServiceSpec" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="BandServiceSpec - 2020.04.08 at 12h 34m 32s.xml">
-      <configuration name="BandServiceSpec" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="BandServiceSpec - 2020.04.08 at 12h 35m 22s.xml">
       <configuration name="BandServiceSpec" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -558,9 +539,24 @@
     <history-entry file="BandServiceSpec - 2020.04.08 at 12h 42m 49s.xml">
       <configuration name="BandServiceSpec" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="BandServiceSpec - 2020.04.08 at 12h 44m 50s.xml">
+      <configuration name="BandServiceSpec" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="BandServiceSpec - 2020.04.08 at 12h 46m 41s.xml">
+      <configuration name="BandServiceSpec" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="BandServiceSpec - 2020.04.08 at 12h 48m 01s.xml">
+      <configuration name="BandServiceSpec" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="BandServiceSpec - 2020.04.08 at 12h 52m 35s.xml">
+      <configuration name="BandServiceSpec" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="BandServiceSpec - 2020.04.08 at 12h 54m 10s.xml">
+      <configuration name="BandServiceSpec" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15326000" />
+    <option name="totallyTimeSpent" value="16174000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="956" extended-state="0" />
@@ -977,34 +973,34 @@
       </provider>
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="87" column="22" lean-forward="true" selection-start-line="87" selection-start-column="22" selection-end-line="87" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="102" selection-start-line="102" selection-end-line="107" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/integration-test/groovy/org/jukebox/services/BandServiceSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="304">
+          <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
           <folding>
             <element signature="e#30#66#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="102" column="37" selection-start-line="102" selection-start-column="37" selection-end-line="102" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/integration-test/groovy/org/jukebox/utils/BaseContainerSpecification.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="25" column="32" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="93" column="20" selection-start-line="93" selection-start-column="4" selection-end-line="93" selection-end-column="20" />
+        <state relative-caret-position="193">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
         </state>
       </provider>
     </entry>

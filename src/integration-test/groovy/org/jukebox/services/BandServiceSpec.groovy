@@ -19,28 +19,28 @@ class BandServiceSpec extends BaseContainerSpecification {
     BandService bandService
     GrailsApplication grailsApplication
 
-    private def populateData() {
-        bandService.save(new Band( name: "prova",  yearFormed: "2019",  yearDissolution: "2019",  style: "Pop",  origin: "Usa"))
-    }
+
 
     def setup(){
     }
 
-    void "test get"() {
+    void "test count created object"() {
         when:
+        bandService.save(new Band( name: "prova",  yearFormed: "2019",  yearDissolution: "2019",  style: "Pop",  origin: "Usa"))
+        assert bandService.count() == 1
+
         println "====> " + grailsApplication.config.environments.test.dataSource.url
         println "====> " + grailsApplication.config.environments.test.dataSource.username
         println "====> " + grailsApplication.config.environments.test.dataSource.password
         println "====> " +grailsApplication.config.environments.test.dataSource.driverClassName
 
         executeQuery("INSERT INTO BAND VALUES(1,'Metallica',1981,NULL,'Heavy','US');")
-        populateData()
 
         then:
         bandService.count() == 2
     }
 
-    void "test insert"() {
+    void "test if db is not empty"() {
         when:
         ResultSet resultSet = performQueryResult("SELECT * FROM BAND WHERE id = '1'")
         String resultSetInt = resultSet.getString(2)
