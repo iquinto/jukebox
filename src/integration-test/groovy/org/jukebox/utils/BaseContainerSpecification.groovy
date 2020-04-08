@@ -23,13 +23,15 @@ abstract class BaseContainerSpecification extends Specification{
 
     def setupSpec() {
         startPostgresIfNeeded()
-        ['grailsApplication.config.environments.test.dataSource.url'     : POSTGRES.getJdbcUrl(),
-         'grailsApplication.config.environments.test.dataSource.username': POSTGRES.getUsername(),
-         'grailsApplication.config.environments.test.dataSource.password': POSTGRES.getPassword(),
-         'grailsApplication.config.environments.test.dataSource.driverClassName': POSTGRES.getDriverClassName()
+        ['application.dataSource.url'     : POSTGRES.getJdbcUrl(),
+         'application.username': POSTGRES.getUsername(),
+         'application.password': POSTGRES.getPassword(),
+         'application.driverClassName': POSTGRES.getDriverClassName()
         ].each { k, v ->
             System.setProperty(k, v)
         }
+
+
         migrateDatabase()
     }
 

@@ -9,7 +9,9 @@ import org.jukebox.BandService
 import org.jukebox.utils.BaseContainerSpecification
 import org.jukebox.utils.BaseRequestSpecification
 import org.springframework.beans.factory.annotation.Autowired
+import spock.lang.IgnoreIf
 
+@IgnoreIf({ System.getProperty('geb.env') })
 @Integration
 @Rollback
 class BandControllerIntegrationSpec extends BaseContainerSpecification implements BaseRequestSpecification{

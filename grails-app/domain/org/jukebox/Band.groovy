@@ -6,6 +6,11 @@ class Band {
     String yearDissolution
     String style
     String origin
+
+    static mapping = {
+        version false
+    }
+
     static constraints = {
     }
 }

@@ -7,14 +7,16 @@ import org.jukebox.Band
 import org.jukebox.BandService
 import org.jukebox.utils.BaseContainerSpecification
 import org.hibernate.SessionFactory
+import spock.lang.IgnoreIf
+
 import java.sql.ResultSet
 
+@IgnoreIf({ System.getProperty('geb.env') })
 @Integration
 @Rollback
 class BandServiceSpec extends BaseContainerSpecification {
 
     BandService bandService
-    SessionFactory sessionFactory
     GrailsApplication grailsApplication
 
     private def populateData() {
@@ -26,6 +28,11 @@ class BandServiceSpec extends BaseContainerSpecification {
 
     void "test get"() {
         when:
+        println "====> " + grailsApplication.config.environments.test.dataSource.url
+        println "====> " + grailsApplication.config.environments.test.dataSource.username
+        println "====> " + grailsApplication.config.environments.test.dataSource.password
+        println "====> " +grailsApplication.config.environments.test.dataSource.driverClassName
+
         executeQuery("INSERT INTO BAND VALUES(1,'Metallica',1981,NULL,'Heavy','US');")
         populateData()
 
@@ -41,6 +48,7 @@ class BandServiceSpec extends BaseContainerSpecification {
         then:
         resultSetInt == "Metallica"
     }
+
 
 /*
 

@@ -1,187 +1,0 @@
-‰2020-04-07 23:16:05.614 ERROR --- [    Test worker] g.web.servlet.mvc.GrailsParameterMap     : Error processing form encoded PUT request
-
-#java.io.IOException: Stream closed
-?	at java.io.BufferedReader.ensureOpen(BufferedReader.java:122)
-9	at java.io.BufferedReader.read(BufferedReader.java:278)
-)	at java.io.Reader.read(Reader.java:140)
-E	at org.grails.io.support.SpringIOUtils.copy(SpringIOUtils.java:321)
-2	at grails.io.IOUtils.toString(IOUtils.groovy:70)
-Q	at grails.web.servlet.mvc.GrailsParameterMap.<init>(GrailsParameterMap.java:92)
-]	at org.grails.web.servlet.mvc.GrailsWebRequest.getOriginalParams(GrailsWebRequest.java:254)
-W	at org.grails.web.servlet.mvc.GrailsWebRequest.resetParams(GrailsWebRequest.java:263)
-U	at org.grails.web.servlet.mvc.GrailsWebRequest.getParams(GrailsWebRequest.java:244)
-]	at grails.testing.web.GrailsWebUnitTest$Trait$Helper.getParams(GrailsWebUnitTest.groovy:90)
-W	at grails.testing.web.GrailsWebUnitTest$Trait$Helper$getParams$8.call(Unknown Source)
-H	at org.jukebox.BandControllerSpec.getParams(BandControllerSpec.groovy)
-@	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-R	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-Z	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-5	at java.lang.reflect.Method.invoke(Method.java:498)
-M	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:98)
-?	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
-	at org.codehaus.groovy.runtime.metaclass.MethodMetaProperty$GetBeanMethodMetaProperty.getProperty(MethodMetaProperty.java:76)
-x	at org.codehaus.groovy.runtime.callsite.GetEffectivePogoPropertySite.getProperty(GetEffectivePogoPropertySite.java:85)
-q	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGroovyObjectGetProperty(AbstractCallSite.java:310)
-V	at org.jukebox.BandControllerSpec.$spock_feature_0_10(BandControllerSpec.groovy:166)
-@	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-R	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-Z	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-5	at java.lang.reflect.Method.invoke(Method.java:498)
-Q	at org.spockframework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:174)
-K	at org.spockframework.runtime.model.MethodInfo.invoke(MethodInfo.java:84)
-Q	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:481)
-N	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:464)
-X	at org.spockframework.runtime.BaseSpecRunner.runFeatureMethod(BaseSpecRunner.java:406)
-V	at org.spockframework.runtime.BaseSpecRunner.doRunIteration(BaseSpecRunner.java:324)
-P	at org.spockframework.runtime.BaseSpecRunner$6.invoke(BaseSpecRunner.java:309)
-Q	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:481)
-N	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:464)
-T	at org.spockframework.runtime.BaseSpecRunner.runIteration(BaseSpecRunner.java:288)
-a	at org.spockframework.runtime.BaseSpecRunner.initializeAndRunIteration(BaseSpecRunner.java:278)
-X	at org.spockframework.runtime.BaseSpecRunner.runSimpleFeature(BaseSpecRunner.java:269)
-T	at org.spockframework.runtime.BaseSpecRunner.doRunFeature(BaseSpecRunner.java:263)
-P	at org.spockframework.runtime.BaseSpecRunner$5.invoke(BaseSpecRunner.java:246)
-Q	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:481)
-N	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:464)
-R	at org.spockframework.runtime.BaseSpecRunner.runFeature(BaseSpecRunner.java:238)
-S	at org.spockframework.runtime.BaseSpecRunner.runFeatures(BaseSpecRunner.java:188)
-P	at org.spockframework.runtime.BaseSpecRunner.doRunSpec(BaseSpecRunner.java:98)
-O	at org.spockframework.runtime.BaseSpecRunner$1.invoke(BaseSpecRunner.java:84)
-Q	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:481)
-N	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:464)
-N	at org.spockframework.runtime.BaseSpecRunner.runSpec(BaseSpecRunner.java:76)
-J	at org.spockframework.runtime.BaseSpecRunner.run(BaseSpecRunner.java:67)
-<	at org.spockframework.runtime.Sputnik.run(Sputnik.java:63)
-u	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114)
-o	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57)
-z	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66)
-t	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
-@	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-R	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-Z	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-5	at java.lang.reflect.Method.invoke(Method.java:498)
-Y	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
-Y	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-i	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
-x	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-;	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
-b	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:109)
-@	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-R	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-Z	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-5	at java.lang.reflect.Method.invoke(Method.java:498)
-Y	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
-Y	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-‘	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:147)
-‘	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:129)
-X	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
-k	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
-^	at org.gradle.internal.concurrent.StoppableExecutorImpl$1.run(StoppableExecutorImpl.java:46)
-T	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-T	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-*	at java.lang.Thread.run(Thread.java:748)
-
-‰2020-04-07 23:16:05.637 ERROR --- [    Test worker] g.web.servlet.mvc.GrailsParameterMap     : Error processing form encoded PUT request
-
-#java.io.IOException: Stream closed
-?	at java.io.BufferedReader.ensureOpen(BufferedReader.java:122)
-9	at java.io.BufferedReader.read(BufferedReader.java:278)
-)	at java.io.Reader.read(Reader.java:140)
-E	at org.grails.io.support.SpringIOUtils.copy(SpringIOUtils.java:321)
-2	at grails.io.IOUtils.toString(IOUtils.groovy:70)
-Q	at grails.web.servlet.mvc.GrailsParameterMap.<init>(GrailsParameterMap.java:92)
-]	at org.grails.web.servlet.mvc.GrailsWebRequest.getOriginalParams(GrailsWebRequest.java:254)
-W	at org.grails.web.servlet.mvc.GrailsWebRequest.resetParams(GrailsWebRequest.java:263)
-U	at org.grails.web.servlet.mvc.GrailsWebRequest.getParams(GrailsWebRequest.java:244)
-v	at org.grails.web.mime.HttpServletResponseExtension.getMimeTypesFormatAware(HttpServletResponseExtension.groovy:177)
-@	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-R	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-Z	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-5	at java.lang.reflect.Method.invoke(Method.java:498)
-d	at org.codehaus.groovy.runtime.metaclass.ReflectionMetaMethod.invoke(ReflectionMetaMethod.java:54)
-f	at org.codehaus.groovy.runtime.metaclass.NewInstanceMetaMethod.invoke(NewInstanceMetaMethod.java:56)
-?	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
-C	at groovy.lang.MetaClassImpl.getProperty(MetaClassImpl.java:1845)
-C	at groovy.lang.MetaClassImpl.getProperty(MetaClassImpl.java:3773)
-	at org.grails.plugins.testing.AbstractGrailsMockHttpServletResponse.getProperty(AbstractGrailsMockHttpServletResponse.groovy)
-f	at org.codehaus.groovy.runtime.callsite.PogoGetPropertySite.getProperty(PogoGetPropertySite.java:49)
-e	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:299)
-f	at grails.artefact.controller.RestResponder$Trait$Helper.getResponseFormat(RestResponder.groovy:227)
-d	at grails.artefact.controller.RestResponder$Trait$Helper.internalRespond(RestResponder.groovy:122)
-[	at grails.artefact.controller.RestResponder$Trait$Helper.respond(RestResponder.groovy:62)
-Y	at grails.artefact.controller.RestResponder$Trait$Helper$respond$1.call(Unknown Source)
->	at org.jukebox.BandController.respond(BandController.groovy)
-Q	at grails.artefact.controller.RestResponder$respond.callCurrent(Unknown Source)
-a	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
-a	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:157)
-a	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:177)
-@	at org.jukebox.BandController.update(BandController.groovy:60)
-@	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-R	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-Z	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-5	at java.lang.reflect.Method.invoke(Method.java:498)
-o	at org.grails.testing.runtime.support.ActionSettingMethodHandler.invoke(ActionSettingMethodHandler.groovy:29)
-U	at org.jukebox.BandController_$$_jvst6bd_0.update(BandController_$$_jvst6bd_0.java)
-=	at org.jukebox.BandController$update$4.call(Unknown Source)
-Z	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
-Z	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
-Z	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:128)
-V	at org.jukebox.BandControllerSpec.$spock_feature_0_11(BandControllerSpec.groovy:188)
-@	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-R	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-Z	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-5	at java.lang.reflect.Method.invoke(Method.java:498)
-Q	at org.spockframework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:174)
-K	at org.spockframework.runtime.model.MethodInfo.invoke(MethodInfo.java:84)
-Q	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:481)
-N	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:464)
-X	at org.spockframework.runtime.BaseSpecRunner.runFeatureMethod(BaseSpecRunner.java:406)
-V	at org.spockframework.runtime.BaseSpecRunner.doRunIteration(BaseSpecRunner.java:324)
-P	at org.spockframework.runtime.BaseSpecRunner$6.invoke(BaseSpecRunner.java:309)
-Q	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:481)
-N	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:464)
-T	at org.spockframework.runtime.BaseSpecRunner.runIteration(BaseSpecRunner.java:288)
-a	at org.spockframework.runtime.BaseSpecRunner.initializeAndRunIteration(BaseSpecRunner.java:278)
-X	at org.spockframework.runtime.BaseSpecRunner.runSimpleFeature(BaseSpecRunner.java:269)
-T	at org.spockframework.runtime.BaseSpecRunner.doRunFeature(BaseSpecRunner.java:263)
-P	at org.spockframework.runtime.BaseSpecRunner$5.invoke(BaseSpecRunner.java:246)
-Q	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:481)
-N	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:464)
-R	at org.spockframework.runtime.BaseSpecRunner.runFeature(BaseSpecRunner.java:238)
-S	at org.spockframework.runtime.BaseSpecRunner.runFeatures(BaseSpecRunner.java:188)
-P	at org.spockframework.runtime.BaseSpecRunner.doRunSpec(BaseSpecRunner.java:98)
-O	at org.spockframework.runtime.BaseSpecRunner$1.invoke(BaseSpecRunner.java:84)
-Q	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:481)
-N	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:464)
-N	at org.spockframework.runtime.BaseSpecRunner.runSpec(BaseSpecRunner.java:76)
-J	at org.spockframework.runtime.BaseSpecRunner.run(BaseSpecRunner.java:67)
-<	at org.spockframework.runtime.Sputnik.run(Sputnik.java:63)
-u	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114)
-o	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57)
-z	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66)
-t	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
-@	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-R	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-Z	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-5	at java.lang.reflect.Method.invoke(Method.java:498)
-Y	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
-Y	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-i	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
-x	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-;	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
-b	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:109)
-@	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-R	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-Z	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-5	at java.lang.reflect.Method.invoke(Method.java:498)
-Y	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
-Y	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-‘	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:147)
-‘	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:129)
-X	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
-k	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
-^	at org.gradle.internal.concurrent.StoppableExecutorImpl$1.run(StoppableExecutorImpl.java:46)
-T	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-T	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-*	at java.lang.Thread.run(Thread.java:748)
-

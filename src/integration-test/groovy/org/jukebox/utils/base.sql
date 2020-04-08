@@ -1,5 +1,5 @@
 CREATE TABLE BAND (
-	id SMALLINT,
+	id SERIAL,
 	name VARCHAR(255) NOT NULL,
 	year_formed SMALLINT NOT NULL,
 	year_dissolution SMALLINT,

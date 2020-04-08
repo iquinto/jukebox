@@ -1,1 +1,1 @@
-INSERT INTO BAND VALUES(1,'Metallica',1981,NULL,'Heavy','US');
+INSERT INTO BAND VALUES('Metallica',1981,NULL,'Heavy','US');
