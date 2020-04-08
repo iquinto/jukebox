@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jukebox.services.BandServiceSpec" tests="2" skipped="0" failures="1" errors="0" timestamp="2020-04-08T10:27:03" hostname="MacBook-Pro-de-Isagani.local" time="11.849">
+<testsuite name="org.jukebox.services.BandServiceSpec" tests="2" skipped="0" failures="1" errors="0" timestamp="2020-04-08T10:47:45" hostname="MacBook-Pro-de-Isagani.local" time="11.162">
   <properties/>
-  <testcase name="test get" classname="org.jukebox.services.BandServiceSpec" time="11.489">
-    <failure message="Condition not satisfied:&#10;&#10;bandService.count() == 2&#10;|           |       |&#10;|           1       false&#10;org.jukebox.$BandServiceImplementation@64cfc810&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+  <testcase name="test get" classname="org.jukebox.services.BandServiceSpec" time="10.773">
+    <failure message="Condition not satisfied:&#10;&#10;bandService.count() == 2&#10;|           |       |&#10;|           1       false&#10;org.jukebox.$BandServiceImplementation@1d09b8e0&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
 
 bandService.count() == 2
 |           |       |
 |           1       false
-org.jukebox.$BandServiceImplementation@64cfc810
+org.jukebox.$BandServiceImplementation@1d09b8e0
 
 	at org.jukebox.services.BandServiceSpec.$tt__$spock_feature_1_0(BandServiceSpec.groovy:40)
 	at org.jukebox.services.BandServiceSpec.test get_closure3(BandServiceSpec.groovy)
@@ -19,14 +19,14 @@ org.jukebox.$BandServiceImplementation@64cfc810
 	at org.jukebox.services.BandServiceSpec.test get(BandServiceSpec.groovy)
 </failure>
   </testcase>
-  <testcase name="test insert" classname="org.jukebox.services.BandServiceSpec" time="0.36"/>
+  <testcase name="test insert" classname="org.jukebox.services.BandServiceSpec" time="0.389"/>
   <system-out><![CDATA[[BASE-INTEGRATION-TEST] - Postgres is not started. Running...
 [BASE-INTEGRATION-TEST] - Migrating DataBase...
-Grails application running at http://localhost:49452 in environment: test
-====> jdbc:h2:mem:testDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE
-====> [:]
-====> [:]
-====> [:]
+Grails application running at http://localhost:49986 in environment: development
+====> jdbc:postgresql://localhost:32813/dipta?loggerLevel=OFF
+====> app
+====> pass
+====> org.postgresql.Driver
 [BASE-INTEGRATION-TEST] - Stopping Postgres...
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>

@@ -23,10 +23,10 @@ abstract class BaseContainerSpecification extends Specification{
 
     def setupSpec() {
         startPostgresIfNeeded()
-        ['application.dataSource.url'     : POSTGRES.getJdbcUrl(),
-         'application.username': POSTGRES.getUsername(),
-         'application.password': POSTGRES.getPassword(),
-         'application.driverClassName': POSTGRES.getDriverClassName()
+        ['JDBC_CONNECTION_STRING' : POSTGRES.getJdbcUrl(),
+         'JDBC_CONNECTION_USER': POSTGRES.getUsername(),
+         'JDBC_CONNECTION_PASSWORD': POSTGRES.getPassword(),
+         'JDBC_CONNECTION_DRIVER': POSTGRES.getDriverClassName()
         ].each { k, v ->
             System.setProperty(k, v)
         }

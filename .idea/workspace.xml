@@ -2,230 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="904634e1-db3e-4847-ac72-1f649a6e82e8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/3.5/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.5/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.5/taskHistory/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.5/taskHistory/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.5/taskHistory/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.5/taskHistory/fileSnapshots.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.5/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.5/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.5/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.5/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/apple-touch-icon-5e23ba04083fe9fa76cf75944bf11334.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/apple-touch-icon-retina-878e578c6c13acbaa1ef3b94f127b6bf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/apple-touch-icon-retina.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/apple-touch-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/application-931a88328a9b63b5ae43e539dc65bd76.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/application-931a88328a9b63b5ae43e539dc65bd76.css.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/application-bef98f3ac7542cc30b757375c6998c5c.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/application-bef98f3ac7542cc30b757375c6998c5c.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/application.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/application.css.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/application.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/application.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/application.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/application.unminified.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/bootstrap-1a224641b7427ce51125ae6bb9ffda4b.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/bootstrap-1a224641b7427ce51125ae6bb9ffda4b.css.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/bootstrap-e7841dccda05e42b9b88281511f32484.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/bootstrap-e7841dccda05e42b9b88281511f32484.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/bootstrap.css.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/bootstrap.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/bootstrap.unminified.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/errors-081f1b7cc86c9f8824107b7756baa1cd.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/errors-081f1b7cc86c9f8824107b7756baa1cd.css.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/errors.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/errors.css.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/favicon-49590fbc002f678b0b150e37e6276d71.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/favicon-49590fbc002f678b0b150e37e6276d71.ico.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/favicon.ico.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/grails-cda5b2716e249b1f09558c5c3aa79ddb.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/grails-cda5b2716e249b1f09558c5c3aa79ddb.svg.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/grails-cupsonly-logo-white-b651640f09f462efc43058482f4131d4.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/grails-cupsonly-logo-white-b651640f09f462efc43058482f4131d4.svg.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/grails-cupsonly-logo-white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/grails-cupsonly-logo-white.svg.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/grails-da3036e92875c94311472ee10310ed73.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/grails-da3036e92875c94311472ee10310ed73.css.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/grails.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/grails.css.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/grails.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/grails.svg.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/jquery-2.2.0.min-954ae53dadbc4347dcc8d960064e22aa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/jquery-2.2.0.min-954ae53dadbc4347dcc8d960064e22aa.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/jquery-2.2.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/jquery-2.2.0.min.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/main-86bc49c82920458798f6db1c35b6af7a.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/main-86bc49c82920458798f6db1c35b6af7a.css.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/main.css.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/manifest.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/mobile-61b8607741e97aa19553f856bc5da637.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/mobile-61b8607741e97aa19553f856bc5da637.css.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/mobile.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/mobile.css.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/skin/database_add-82a75143b4660a3f02f9c058f0a3ae93.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/skin/database_add.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/skin/database_delete-3862d8032e726f3a67a0dfd555ff9711.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/skin/database_delete.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/skin/database_edit-868a0bb564edc2c710f9fb55c827a4b8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/skin/database_edit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/skin/database_save-8303213a3c95654e14d5afd4e72ed4c2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/skin/database_save.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/skin/database_table-c413540d7e3545ace2c445fe686e915f.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/skin/database_table.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/skin/exclamation-e4dd51f46566ed3ceacdc900bf2fdf01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/skin/exclamation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/skin/house-99bea32e1990e011e870f6c562e87a6a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/skin/house.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/skin/information-3750c701d2ec35a45d289b9b9c1a0667.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/skin/information.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/skin/shadow-91463fad8ce43e365a0af6e8f415fdf6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/skin/shadow.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/skin/sorted_asc-df23e44c4c4999383e95e9c8bf5da156.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/skin/sorted_asc.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/skin/sorted_desc-b85986b88116c4b0ef7571a1c4f3cfa3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/skin/sorted_desc.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/spinner-c7b3cbb3ec8249a7121b722cdd76b870.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/spinner.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/integrationTest/org/jukebox/services/BandControllerIntegrationSpec$__spock_feature_1_0_closure2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/integrationTest/org/jukebox/services/BandControllerIntegrationSpec$_populateData_closure1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/integrationTest/org/jukebox/services/BandControllerIntegrationSpec.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/integrationTest/org/jukebox/services/BandControllerIntegrationSpec.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/integrationTest/org/jukebox/services/BandServiceSpec$__spock_feature_1_0_closure2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/integrationTest/org/jukebox/services/BandServiceSpec$__spock_feature_1_1_closure3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/integrationTest/org/jukebox/services/BandServiceSpec$_setup_closure1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/integrationTest/org/jukebox/services/BandServiceSpec.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/integrationTest/org/jukebox/services/BandServiceSpec.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/integrationTest/org/jukebox/utils/BaseContainerSpecification$_cleanupSpec_closure2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/integrationTest/org/jukebox/utils/BaseContainerSpecification$_cleanupSpec_closure2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/integrationTest/org/jukebox/utils/BaseContainerSpecification.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/integrationTest/org/jukebox/utils/BaseContainerSpecification.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/main/org/jukebox/Band$__clinit__closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/org/jukebox/Band$__clinit__closure1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/main/org/jukebox/Band.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/org/jukebox/Band.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/main/org/jukebox/BandController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/org/jukebox/BandController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/test/org/jukebox/BandControllerSpec.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/test/org/jukebox/BandControllerSpec.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/test/org/jukebox/BandSpec.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/test/org/jukebox/BandSpec.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp/views.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukebox_bandcreate_gsp$_run_closure1$_closure3$_closure4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukebox_bandcreate_gsp$_run_closure1$_closure3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukebox_bandcreate_gsp$_run_closure1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukebox_bandcreate_gsp$_run_closure2$_closure5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukebox_bandcreate_gsp$_run_closure2$_closure6$_closure8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukebox_bandcreate_gsp$_run_closure2$_closure6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukebox_bandcreate_gsp$_run_closure2$_closure7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukebox_bandcreate_gsp$_run_closure2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukebox_bandcreate_gsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukebox_bandcreate_gsp_html.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukebox_bandcreate_gsp_linenumbers.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukebox_bandedit_gsp$_run_closure1$_closure3$_closure4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukebox_bandedit_gsp$_run_closure1$_closure3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukebox_bandedit_gsp$_run_closure1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukebox_bandedit_gsp$_run_closure2$_closure5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukebox_bandedit_gsp$_run_closure2$_closure6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukebox_bandedit_gsp$_run_closure2$_closure7$_closure9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukebox_bandedit_gsp$_run_closure2$_closure7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukebox_bandedit_gsp$_run_closure2$_closure8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukebox_bandedit_gsp$_run_closure2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukebox_bandedit_gsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukebox_bandedit_gsp_html.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukebox_bandedit_gsp_linenumbers.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukebox_bandindex_gsp$_run_closure1$_closure3$_closure4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukebox_bandindex_gsp$_run_closure1$_closure3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukebox_bandindex_gsp$_run_closure1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukebox_bandindex_gsp$_run_closure2$_closure5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukebox_bandindex_gsp$_run_closure2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukebox_bandindex_gsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukebox_bandindex_gsp_html.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukebox_bandindex_gsp_linenumbers.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukebox_bandshow_gsp$_run_closure1$_closure3$_closure4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukebox_bandshow_gsp$_run_closure1$_closure3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukebox_bandshow_gsp$_run_closure1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukebox_bandshow_gsp$_run_closure2$_closure5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukebox_bandshow_gsp$_run_closure2$_closure6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukebox_bandshow_gsp$_run_closure2$_closure7$_closure8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukebox_bandshow_gsp$_run_closure2$_closure7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukebox_bandshow_gsp$_run_closure2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukebox_bandshow_gsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukebox_bandshow_gsp_html.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukebox_bandshow_gsp_linenumbers.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukebox_layoutsmain_gsp$_run_closure1$_closure3$_closure4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukebox_layoutsmain_gsp$_run_closure1$_closure3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukebox_layoutsmain_gsp$_run_closure1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukebox_layoutsmain_gsp$_run_closure2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukebox_layoutsmain_gsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukebox_layoutsmain_gsp_html.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukebox_layoutsmain_gsp_linenumbers.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukeboxerror_gsp$_run_closure1$_closure3$_closure4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukeboxerror_gsp$_run_closure1$_closure3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukeboxerror_gsp$_run_closure1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukeboxerror_gsp$_run_closure2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukeboxerror_gsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukeboxerror_gsp_html.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukeboxerror_gsp_linenumbers.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukeboxindex_gsp$_run_closure1$_closure3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukeboxindex_gsp$_run_closure1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukeboxindex_gsp$_run_closure2$_closure4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukeboxindex_gsp$_run_closure2$_closure5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukeboxindex_gsp$_run_closure2$_closure6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukeboxindex_gsp$_run_closure2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukeboxindex_gsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukeboxindex_gsp_html.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukeboxindex_gsp_linenumbers.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukeboxnotFound_gsp$_run_closure1$_closure3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukeboxnotFound_gsp$_run_closure1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukeboxnotFound_gsp$_run_closure2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukeboxnotFound_gsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukeboxnotFound_gsp_html.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsp-classes/main/gsp_jukeboxnotFound_gsp_linenumbers.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsptmp/gsp_jukebox_bandcreate_gsp.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsptmp/gsp_jukebox_bandedit_gsp.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsptmp/gsp_jukebox_bandindex_gsp.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsptmp/gsp_jukebox_bandshow_gsp.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsptmp/gsp_jukebox_layoutsmain_gsp.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsptmp/gsp_jukeboxerror_gsp.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsptmp/gsp_jukeboxindex_gsp.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/gsptmp/gsp_jukeboxnotFound_gsp.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/jukebox-0.1.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/jukebox-0.1.war.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/classes/org.jukebox.BandControllerSpec.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/classes/org.jukebox.BandSpec.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/classes/org.jukebox.services.BandServiceSpec.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/classes/org.jukebox.services.BandServiceSpec.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/packages/org.jukebox.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/packages/org.jukebox.services.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/packages/org.jukebox.services.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/org.jukebox.BandControllerSpec.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/org.jukebox.BandSpec.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/org.jukebox.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/integrationTest/GebConfig.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/integrationTest/GebConfig.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/META-INF/grails.build.info" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/META-INF/grails.build.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/resources/main/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/integrationTest/TEST-org.jukebox.services.BandServiceSpec.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/integrationTest/TEST-org.jukebox.services.BandServiceSpec.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/integrationTest/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/integrationTest/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/integrationTest/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/integrationTest/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/integrationTest/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/integrationTest/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-org.jukebox.BandControllerSpec.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-org.jukebox.BandSpec.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/integrationTest/jar_extract_2404941068771035350_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/integrationTest/jar_extract_7008596766401927743_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/integrationTest/jar_extract_7982692518892923809_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_2381953829476919377_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_5559754376474164437_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_6843533792621919028_tmp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/grails-app/conf/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/conf/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grails-app/domain/org/jukebox/Band.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/domain/org/jukebox/Band.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/integration-test/groovy/org/jukebox/controllers/BandControllerIntegrationSpec.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/integration-test/groovy/org/jukebox/controllers/BandControllerIntegrationSpec.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/integration-test/groovy/org/jukebox/services/BandServiceSpec.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/integration-test/groovy/org/jukebox/services/BandServiceSpec.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/integration-test/groovy/org/jukebox/utils/BaseContainerSpecification.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/integration-test/groovy/org/jukebox/utils/BaseContainerSpecification.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/integration-test/groovy/org/jukebox/utils/base.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/integration-test/groovy/org/jukebox/utils/base.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/integration-test/groovy/org/jukebox/utils/insert.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/integration-test/groovy/org/jukebox/utils/insert.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/integration-test/resources/GebConfig.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/integration-test/resources/GebConfig.groovy" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -291,51 +85,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/integration-test/groovy/org/jukebox/utils/BaseContainerSpecification.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="203">
+              <caret line="25" column="32" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="83" column="40" selection-start-line="83" selection-start-column="40" selection-end-line="83" selection-end-column="40" />
+            <state relative-caret-position="432">
+              <caret line="93" column="20" selection-start-line="93" selection-start-column="4" selection-end-line="93" selection-end-column="20" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/integration-test/groovy/org/jukebox/services/BandServiceSpec.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="30" column="81" lean-forward="true" selection-start-line="30" selection-start-column="70" selection-end-line="30" selection-end-column="81" />
-              <folding>
-                <element signature="e#30#66#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/domain/org/jukebox/Band.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-            </state>
-          </provider>
-          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/conf/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="104" column="27" selection-start-line="104" selection-start-column="27" selection-end-line="104" selection-end-column="27" />
+            <state relative-caret-position="279">
+              <caret line="102" column="37" selection-start-line="102" selection-start-column="37" selection-end-line="102" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -365,13 +137,13 @@
         <option value="$PROJECT_DIR$/src/integration-test/resources/GebConfig.groovy" />
         <option value="$PROJECT_DIR$/src/integration-test/groovy/org/jukebox/geb/TestSpec.groovy" />
         <option value="$PROJECT_DIR$/src/integration-test/groovy/org/jukebox/controllers/BandControllerIntegrationSpec.groovy" />
-        <option value="$PROJECT_DIR$/src/integration-test/groovy/org/jukebox/services/BandServiceSpec.groovy" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/grails-app/conf/application.yml" />
         <option value="$PROJECT_DIR$/grails-app/domain/org/jukebox/Band.groovy" />
         <option value="$PROJECT_DIR$/src/integration-test/groovy/org/jukebox/utils/insert.sql" />
         <option value="$PROJECT_DIR$/src/integration-test/groovy/org/jukebox/utils/base.sql" />
+        <option value="$PROJECT_DIR$/src/integration-test/groovy/org/jukebox/services/BandServiceSpec.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/application.yml" />
         <option value="$PROJECT_DIR$/src/integration-test/groovy/org/jukebox/utils/BaseContainerSpecification.groovy" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
@@ -751,44 +523,44 @@
       <option name="presentableId" value="Default" />
       <updated>1586279967006</updated>
       <workItem from="1586279971761" duration="9161000" />
-      <workItem from="1586296803269" duration="5137000" />
+      <workItem from="1586296803269" duration="6165000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BandServiceSpec - 2020.04.08 at 12h 05m 23s.xml">
-      <configuration name="BandServiceSpec" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="BandServiceSpec - 2020.04.08 at 12h 13m 37s.xml">
-      <configuration name="BandServiceSpec" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="BandServiceSpec - 2020.04.08 at 12h 14m 25s.xml">
-      <configuration name="BandServiceSpec" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="BandServiceSpec - 2020.04.08 at 12h 17m 00s.xml">
-      <configuration name="BandServiceSpec" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="BandServiceSpec - 2020.04.08 at 12h 17m 47s.xml">
-      <configuration name="BandServiceSpec" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="BandServiceSpec - 2020.04.08 at 12h 18m 17s.xml">
-      <configuration name="BandServiceSpec" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="BandServiceSpec - 2020.04.08 at 12h 19m 37s.xml">
-      <configuration name="BandServiceSpec" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="BandServiceSpec - 2020.04.08 at 12h 21m 33s.xml">
-      <configuration name="BandServiceSpec" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="BandServiceSpec - 2020.04.08 at 12h 23m 02s.xml">
-      <configuration name="BandServiceSpec" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="BandServiceSpec - 2020.04.08 at 12h 27m 15s.xml">
+      <configuration name="BandServiceSpec" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="BandServiceSpec - 2020.04.08 at 12h 29m 33s.xml">
+      <configuration name="BandServiceSpec" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="BandServiceSpec - 2020.04.08 at 12h 30m 33s.xml">
+      <configuration name="BandServiceSpec" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="BandServiceSpec - 2020.04.08 at 12h 31m 30s.xml">
+      <configuration name="BandServiceSpec" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="BandServiceSpec - 2020.04.08 at 12h 34m 32s.xml">
+      <configuration name="BandServiceSpec" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="BandServiceSpec - 2020.04.08 at 12h 35m 22s.xml">
+      <configuration name="BandServiceSpec" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="BandServiceSpec - 2020.04.08 at 12h 36m 55s.xml">
+      <configuration name="BandServiceSpec" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="BandServiceSpec - 2020.04.08 at 12h 38m 10s.xml">
+      <configuration name="BandServiceSpec" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="BandServiceSpec - 2020.04.08 at 12h 41m 02s.xml">
+      <configuration name="BandServiceSpec" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="BandServiceSpec - 2020.04.08 at 12h 42m 49s.xml">
       <configuration name="BandServiceSpec" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14298000" />
+    <option name="totallyTimeSpent" value="15326000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="956" extended-state="0" />
@@ -1183,13 +955,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="104" column="27" selection-start-line="104" selection-start-column="27" selection-end-line="104" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/integration-test/groovy/org/jukebox/utils/base.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -1212,27 +977,34 @@
       </provider>
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="83" column="40" selection-start-line="83" selection-start-column="40" selection-end-line="83" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/integration-test/groovy/org/jukebox/services/BandServiceSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="30" column="81" lean-forward="true" selection-start-line="30" selection-start-column="70" selection-end-line="30" selection-end-column="81" />
+        <state relative-caret-position="155">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="e#30#66#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="102" column="37" selection-start-line="102" selection-start-column="37" selection-end-line="102" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/integration-test/groovy/org/jukebox/utils/BaseContainerSpecification.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="203">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="93" column="20" selection-start-line="93" selection-start-column="4" selection-end-line="93" selection-end-column="20" />
         </state>
       </provider>
     </entry>

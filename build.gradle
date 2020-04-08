@@ -80,20 +80,16 @@ bootRun {
     systemProperty springProfilesActive, System.getProperty(springProfilesActive)
 }
 
-test {
-    systemProperties = System.properties
-}
-
 webdriverBinaries {
     chromedriver '2.35'
     geckodriver '0.19.1'
 }
 
 tasks.withType(Test) {
+    systemProperties = System.properties
     systemProperty "geb.env", System.getProperty('geb.env')
     systemProperty "geb.build.reportsDir", reporting.file("geb/integrationTest")
 }
-
 
 assets {
     minifyJs = true
