@@ -9,8 +9,10 @@ import javax.sql.DataSource
 import java.sql.ResultSet
 import java.sql.SQLException
 import java.sql.Statement
-/*
-   iquinto: this class inject testcontainers DB for IT
+
+/**
+ *  by: iquinto
+ *  configuration of tescontainers (DB) for IT
  */
 abstract class BaseContainerSpecification extends Specification{
     private static final Set<HikariDataSource> datasourcesForCleanup = new HashSet<>()
@@ -21,6 +23,11 @@ abstract class BaseContainerSpecification extends Specification{
             .withUsername("app")
             .withPassword("pass")
 
+    /**
+     *  by: iquinto
+     *  is executed at the beginning of every test class
+     *  instantiate container, create connection and migrate database
+     */
     def setupSpec() {
         startPostgresIfNeeded()
         ['JDBC_CONNECTION_STRING' : POSTGRES.getJdbcUrl(),
@@ -33,6 +40,11 @@ abstract class BaseContainerSpecification extends Specification{
         migrateDatabase()
     }
 
+    /**
+     *  by: iquinto
+     *  is executed at the end of every test class
+     *
+     */
     def cleanupSpec() {
         if (POSTGRES.isRunning()) {
             println "[BASE-INTEGRATION-TEST] - Stopping Postgres..."
@@ -55,6 +67,13 @@ abstract class BaseContainerSpecification extends Specification{
         statement.execute(DB_QUERY)
     }
 
+    /**
+     * by: iquinto
+     * @param query
+     * @throws SQLException
+     * methotd to run a native sql
+     * we can use this method during test execution
+     */
     void executeQuery(String query) throws SQLException {
         DataSource ds = getDataSource(POSTGRES)
         Statement statement = ds.getConnection().createStatement()
@@ -70,6 +89,13 @@ abstract class BaseContainerSpecification extends Specification{
         return resultSet
     }
 
+    /**
+     * by: iquinto
+     * @param container
+     * @return
+     * HikariConfig plugin
+     * create connection from a given DB container
+     */
     DataSource getDataSource(JdbcDatabaseContainer container) {
         HikariConfig hikariConfig = new HikariConfig()
         hikariConfig.setJdbcUrl(container.getJdbcUrl())
