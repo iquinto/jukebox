@@ -11,8 +11,7 @@ class BandControllerSpec extends Specification implements ControllerUnitTest<Ban
         assert params != null
 
         // TODO: Populate valid properties like...
-        //params["name"] = 'someValidName'
-        assert false, "TODO: Provide a populateValidParams() implementation for this generated test suite"
+        new Band( name: "prova",  yearFormed: "2019",  yearDissolution: "2019",  style: "Pop",  origin: "Usa").save()
     }
 
     void "Test the index action returns the correct model"() {

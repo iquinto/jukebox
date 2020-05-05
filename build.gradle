@@ -1,3 +1,9 @@
+import grails.util.Environment
+
+import java.text.SimpleDateFormat
+
+
+
 buildscript {
     repositories {
         mavenLocal()
@@ -21,11 +27,13 @@ apply plugin:"org.grails.grails-web"
 apply plugin:"com.energizedwork.webdriver-binaries"
 apply plugin:"asset-pipeline"
 apply plugin:"org.grails.grails-gsp"
+apply plugin:"jacoco"
 
 repositories {
     mavenLocal()
     maven { url "https://repo.grails.org/grails/core" }
 }
+
 
 dependencies {
     compile "org.springframework.boot:spring-boot-starter-logging"
@@ -54,6 +62,8 @@ dependencies {
     runtime "com.h2database:h2"
     runtime "org.apache.tomcat:tomcat-jdbc"
     runtime "com.bertramlabs.plugins:asset-pipeline-grails:2.14.8"
+    runtime "org.postgresql:postgresql:9.4.1208.jre7"
+    
     testCompile "org.grails:grails-gorm-testing-support"
     testCompile "org.grails:grails-web-testing-support"
     testCompile "org.grails.plugins:geb"
@@ -71,6 +81,7 @@ dependencies {
     testCompile "org.testcontainers:oracle-xe:1.13.0"
     testCompile "org.testcontainers:selenium:1.13.0"
     testRuntime 'org.postgresql:postgresql:42.2.12'
+
 }
 
 bootRun {
@@ -85,11 +96,39 @@ webdriverBinaries {
     geckodriver '0.19.1'
 }
 
+
+
 tasks.withType(Test) {
     systemProperties = System.properties
+    systemProperty "grails.env", Environment.TEST
     systemProperty "geb.env", System.getProperty('geb.env')
     systemProperty "geb.build.reportsDir", reporting.file("geb/integrationTest")
+
+    jacoco {
+        enabled = true
+        project.hasProperty("jacoco_exec") ? setDestinationFile(file("$buildDir/jacoco/exe/${jacoco_exec}.exec")): setDestinationFile(file("$buildDir/jacoco/exe/${new SimpleDateFormat("yyyyMMddHHmmss").format(new Date())}-${Math.random()*1000}.exec"))
+        classDumpDir = file("$buildDir/jacoco/classpathdumps")
+    }
+    
+    finalizedBy jacocoTestReport
 }
+
+jacocoTestReport {
+    sourceSets sourceSets.main
+    executionData = fileTree(dir: "$buildDir/jacoco/", includes: ["exe/*.exec"])
+    reports {
+        xml.enabled true
+        html.destination file("${buildDir}/jacoco/reports")
+        
+        if(project.hasProperty("jacoco_exec")){
+            xml.destination file("${buildDir}/jacoco/xml/${jacoco_exec}.xml")
+        } else{
+            xml.destination file("${buildDir}/jacoco/xml/${new SimpleDateFormat("yyyyMMddHHmmss").format(new Date())}-${Math.random() * 1000}.xml")
+        }
+        
+    }
+}
+
 
 assets {
     minifyJs = true

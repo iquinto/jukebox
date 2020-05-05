@@ -3,6 +3,8 @@ package org.jukebox
 import grails.testing.gorm.DomainUnitTest
 import spock.lang.Specification
 
+import java.text.SimpleDateFormat
+
 class BandSpec extends Specification implements DomainUnitTest<Band> {
 
     def setup() {
@@ -12,7 +14,11 @@ class BandSpec extends Specification implements DomainUnitTest<Band> {
     }
 
     void "test something"() {
-        expect:"fix me"
-            true == false
+        when:
+        new Band().save(failOnError: true)
+
+        then:
+        Band.count() == 1
+
     }
 }

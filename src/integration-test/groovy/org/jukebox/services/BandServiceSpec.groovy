@@ -9,7 +9,6 @@ import org.jukebox.utils.BaseContainerSpecification
 import org.hibernate.SessionFactory
 import spock.lang.IgnoreIf
 
-import java.sql.ResultSet
 
 @IgnoreIf({ System.getProperty('geb.env') })
 @Integration
@@ -18,90 +17,62 @@ class BandServiceSpec extends BaseContainerSpecification {
 
     BandService bandService
     GrailsApplication grailsApplication
+    SessionFactory sessionFactory
 
-
-
-    def setup(){
-    }
-
-    void "test count created object"() {
+    void "test count objects in DB"() {
         when:
-        bandService.save(new Band( name: "prova",  yearFormed: "2019",  yearDissolution: "2019",  style: "Pop",  origin: "Usa"))
-        assert bandService.count() == 1
-
-        println "====> " + grailsApplication.config.environments.test.dataSource.url
-        println "====> " + grailsApplication.config.environments.test.dataSource.username
-        println "====> " + grailsApplication.config.environments.test.dataSource.password
-        println "====> " +grailsApplication.config.environments.test.dataSource.driverClassName
-
-        executeQuery("INSERT INTO BAND VALUES(1,'Metallica',1981,NULL,'Heavy','US');")
+        List<Band> bandList = Band.findAll()
 
         then:
-        bandService.count() == 2
+        println "Names : ${bandList.name}"
+        bandList.size() > 0
     }
 
-    void "test if db is not empty"() {
+    void "test get object in DB"() {
         when:
-        ResultSet resultSet = performQueryResult("SELECT * FROM BAND WHERE id = '1'")
-        String resultSetInt = resultSet.getString(2)
+        Band band = bandService.get(1)
 
         then:
-        resultSetInt == "Metallica"
+        println "Name : ${band.name}"
+        band != null
     }
 
-
-/*
-
-    void "test get"() {
-        setupData()
-
-        expect:
-        bandService.get(1) != null
-    }
-
-    void "test list"() {
-        setupData()
+    void "test create and modify an object"() {
+        given:
+        String str = "Bon Jovi"
 
         when:
-        List<Band> bandList = bandService.list(max: 2, offset: 2)
+        bandService.save(new Band(name: str , yearFormed: "1998",
+                yearDissolution: "2018", style: "Rock", origin: "US"))
+        sessionFactory.currentSession.flush()
 
         then:
-        bandList.size() == 2
-        assert false, "TODO: Verify the correct instances are returned"
-    }
+        bandService.count() == old (Band.count()) + 1
 
-    void "test count"() {
-        setupData()
+        when:
+        def b = Band.findByName(str)
+        b.name = "HOLA"
+        bandService.save(b)
+        sessionFactory.currentSession.flush()
 
-        expect:
-        bandService.count() == 5
+        then:
+        println "Name : ${b.name}"
+        b.name == "HOLA"
     }
 
     void "test delete"() {
-        Long bandId = setupData()
-
-        expect:
-        bandService.count() == 5
+        given:
+        println "Before delete names : ${Band.findAll().name}"
+        Long bandId = bandService.get(1).id
 
         when:
         bandService.delete(bandId)
         sessionFactory.currentSession.flush()
 
         then:
-        bandService.count() == 4
+        println "After delete names : ${Band.findAll().name}"
+        bandService.count() == old(Band.count()) - 1
     }
 
-    void "test save"() {
-        when:
-        assert false, "TODO: Provide a valid instance to save"
-        Band band = new Band()
-        bandService.save(band)
-
-        then:
-        band.id != null
-    }
-
-
-    */
 
 }
