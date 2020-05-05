@@ -10,7 +10,7 @@ import java.sql.ResultSet
 import java.sql.SQLException
 import java.sql.Statement
 /*
-   iquinto: this class inject testcoontainers DB for IT
+   iquinto: this class inject testcontainers DB for IT
  */
 abstract class BaseContainerSpecification extends Specification{
     private static final Set<HikariDataSource> datasourcesForCleanup = new HashSet<>()
