@@ -107,10 +107,8 @@ tasks.withType(Test) {
     jacoco {
         enabled = true
         project.hasProperty("jacoco_exec") ? setDestinationFile(file("$buildDir/jacoco/exe/${jacoco_exec}.exec")): setDestinationFile(file("$buildDir/jacoco/exe/${new SimpleDateFormat("yyyyMMddHHmmss").format(new Date())}-${Math.random()*1000}.exec"))
-        classDumpDir = file("$buildDir/jacoco/classpathdumps")
     }
     
-    finalizedBy jacocoTestReport
 }
 
 jacocoTestReport {
@@ -119,13 +117,7 @@ jacocoTestReport {
     reports {
         xml.enabled true
         html.destination file("${buildDir}/jacoco/reports")
-        
-        if(project.hasProperty("jacoco_exec")){
-            xml.destination file("${buildDir}/jacoco/xml/${jacoco_exec}.xml")
-        } else{
-            xml.destination file("${buildDir}/jacoco/xml/${new SimpleDateFormat("yyyyMMddHHmmss").format(new Date())}-${Math.random() * 1000}.xml")
-        }
-        
+        xml.destination file("${buildDir}/jacoco/xml/${new SimpleDateFormat("yyyyMMddHHmmss").format(new Date())}-${Math.random() * 1000}.xml")
     }
 }
 
