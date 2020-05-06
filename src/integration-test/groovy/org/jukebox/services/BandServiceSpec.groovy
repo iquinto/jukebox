@@ -10,7 +10,6 @@ import org.hibernate.SessionFactory
 import org.testcontainers.spock.Testcontainers
 import spock.lang.IgnoreIf
 
-
 @IgnoreIf({ System.getProperty('geb.env') })
 @Integration
 @Rollback
@@ -44,8 +43,7 @@ class BandServiceSpec extends BaseContainerSpecification {
         String str = "Bon Jovi"
 
         when:
-        bandService.save(new Band(name: str , yearFormed: "1998",
-                yearDissolution: "2018", style: "Rock", origin: "US"))
+        bandService.save(new Band(name: str , yearFormed: "1998", yearDissolution: "2018", style: "Rock", origin: "US"))
         sessionFactory.currentSession.flush()
 
         then:
