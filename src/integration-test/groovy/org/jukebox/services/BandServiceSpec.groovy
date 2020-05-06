@@ -1,6 +1,6 @@
 package org.jukebox.services
 
-import grails.core.GrailsApplication
+
 import grails.testing.mixin.integration.Integration
 import grails.gorm.transactions.Rollback
 import org.jukebox.Band
@@ -17,7 +17,6 @@ import spock.lang.IgnoreIf
 class BandServiceSpec extends BaseContainerSpecification {
 
     BandService bandService
-    GrailsApplication grailsApplication
     SessionFactory sessionFactory
 
     void "test count objects in DB"() {
@@ -25,7 +24,7 @@ class BandServiceSpec extends BaseContainerSpecification {
         List<Band> bandList = Band.findAll()
 
         then:
-        println "Names : ${bandList.name}"
+        println "TEST 1 Names : ${bandList.name}"
         bandList.size() > 0
     }
 
@@ -34,7 +33,7 @@ class BandServiceSpec extends BaseContainerSpecification {
         Band band = Band.findByName("Metallica")
 
         then:
-        println "Name : ${band.name}"
+        println "TEST 2  Name : ${band.name}"
         band != null
     }
 
@@ -56,13 +55,13 @@ class BandServiceSpec extends BaseContainerSpecification {
         sessionFactory.currentSession.flush()
 
         then:
-        println "Name : ${b.name}"
+        println "TEST 3  Name : ${b.name}"
         b.name == "HOLA"
     }
 
     void "test delete"() {
         given:
-        println "Before delete names : ${Band.findAll().name}"
+        println " TEST 4  Before delete names : ${Band.findAll().name}"
         Long bandId = bandService.get(1).id
 
         when:
@@ -70,7 +69,7 @@ class BandServiceSpec extends BaseContainerSpecification {
         sessionFactory.currentSession.flush()
 
         then:
-        println "After delete names : ${Band.findAll().name}"
+        println " TEST 4  After delete names : ${Band.findAll().name}"
         bandService.count() == old(Band.count()) - 1
     }
 

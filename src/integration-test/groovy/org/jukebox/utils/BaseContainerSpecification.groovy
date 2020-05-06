@@ -21,9 +21,9 @@ abstract class BaseContainerSpecification extends Specification{
     private final static String DB_QUERY = new File('src/integration-test/groovy/org/jukebox//utils/base.sql').text
 
     protected static final PostgreSQLContainer POSTGRES = new PostgreSQLContainer()
-            .withDatabaseName("dipta")
-            .withUsername("app")
-            .withPassword("pass")
+            .withDatabaseName("jukebox")
+            .withUsername("isagani")
+            .withPassword("isagani")
 
     /**
      *  by: iquinto
@@ -39,7 +39,8 @@ abstract class BaseContainerSpecification extends Specification{
         ].each { k, v ->
             System.setProperty(k, v)
         }
-        migrateDatabase()
+
+       migrateDatabase()
     }
 
     /**
@@ -48,11 +49,17 @@ abstract class BaseContainerSpecification extends Specification{
      *
      */
     def cleanupSpec() {
-        if (POSTGRES.isRunning()) {
-            println "[BASE-INTEGRATION-TEST] - Stopping Postgres..."
-            POSTGRES.stop()
+        datasourcesForCleanup.each {
+            println "[BASE-INTEGRATION-TEST] - Closing ${it.getJdbcUrl()}..."
+            it.close()
         }
-        datasourcesForCleanup.each { it.close() }
+
+        /* This is to stop the testcontainer instance
+            if (POSTGRES.isRunning()) {
+                println "[BASE-INTEGRATION-TEST] - Stopping Postgres..."
+                POSTGRES.stop()
+            }
+        */
     }
 
     private static void startPostgresIfNeeded() {
@@ -60,9 +67,10 @@ abstract class BaseContainerSpecification extends Specification{
             println "[BASE-INTEGRATION-TEST] - Postgres is not started. Running..."
             POSTGRES.start()
         }
+
     }
 
-    private void migrateDatabase() throws SQLException {
+    protected void migrateDatabase() throws SQLException {
         println"[BASE-INTEGRATION-TEST] - Migrating DataBase..."
         DataSource ds = getDataSource(POSTGRES)
         Statement statement = ds.getConnection().createStatement()

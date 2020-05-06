@@ -1,4 +1,4 @@
-package org.jukebox.services
+package org.jukebox.controllers
 
 import grails.testing.mixin.integration.Integration
 import grails.gorm.transactions.Rollback
@@ -9,11 +9,15 @@ import org.jukebox.BandService
 import org.jukebox.utils.BaseContainerSpecification
 import org.jukebox.utils.BaseRequestSpecification
 import org.springframework.beans.factory.annotation.Autowired
+import org.testcontainers.spock.Testcontainers
 import spock.lang.IgnoreIf
+import spock.lang.Shared
+
 
 @IgnoreIf({ System.getProperty('geb.env') })
 @Integration
 @Rollback
+@Testcontainers
 class BandControllerIntegrationSpec extends BaseContainerSpecification implements BaseRequestSpecification{
 
     String controllerName = "bandController"
@@ -24,18 +28,21 @@ class BandControllerIntegrationSpec extends BaseContainerSpecification implement
     @Autowired
     BandService bandService
 
+    @Shared
+    List<Band> bandList = []
+
     @OnceBefore
     def populateData() {
-        bandService.save(new Band( name: "prova",  yearFormed: "2019",  yearDissolution: "2019",  style: "Pop",  origin: "Usa"))
+        bandList << bandService.save(new Band(name: "Bon Jovi" , yearFormed: "1998", yearDissolution: "2018", style: "Rock", origin: "US"))
+        bandList << bandService.save(new Band( name: "Joan and Company",  yearFormed: "2019",  style: "Pop",  origin: "Spain"))
     }
 
-    void "test get"() {
+    void "test get action"() {
         when:
         controller.index()
 
         then:
-        bandService.count() == 1
+        controller.modelAndView.model.bandCount ==  Band.findAll().size()
     }
-
 
 }
