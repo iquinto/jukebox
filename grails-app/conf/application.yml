@@ -105,6 +105,7 @@ environments:
     test:
         dataSource:
             logSql: true
+            # dbCreate: create-drop
             url: '${JDBC_CONNECTION_STRING}'
             username: '${JDBC_CONNECTION_USER}'
             password: '${JDBC_CONNECTION_PASSWORD}'
