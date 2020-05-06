@@ -18,59 +18,61 @@ class DuplicatedBandServiceSpec extends BaseContainerSpecification {
     BandService bandService
     SessionFactory sessionFactory
 
-    void "test count objects in DB"() {
+    void "test list objects "() {
         when:
         List<Band> bandList = Band.findAll()
 
         then:
-        println "TEST 1 Names : ${bandList.name}"
+        println "A ===========> ${Band.findAll().name.sort()}"
         bandList.size() > 0
     }
 
-    void "test get object in DB"() {
-        when:
-        Band band = Band.findByName("Metallica")
 
-        then:
-        println "TEST 2  Name : ${band.name}"
-        band != null
-    }
-
-    void "test create and modify an object"() {
+    void "test create"() {
         given:
-        String str = "Bon Jovi"
+        String str = "A NEW_BAND"
 
         when:
         bandService.save(new Band(name: str , yearFormed: "1998", yearDissolution: "2018", style: "Rock", origin: "US"))
         sessionFactory.currentSession.flush()
 
         then:
+        println "B ===========> ${Band.findAll().name.sort()}"
         bandService.count() == old (Band.count()) + 1
 
-        when:
-        def b = Band.findByName(str)
-        b.name = "HOLA"
-        bandService.save(b)
-        sessionFactory.currentSession.flush()
-
-        then:
-        println "TEST 3  Name : ${b.name}"
-        b.name == "HOLA"
     }
 
-    void "test delete"() {
+    void "test list objects after saving and the  object must not persist"() {
+        when:
+        List<Band> bandList = Band.findAll()
+
+        then:
+        println "C ===========> ${Band.findAll().name.sort()}"
+        bandList.size() > 0
+    }
+
+    void "test modify and verify an object"() {
         given:
-        println " TEST 4  Before delete names : ${Band.findAll().name}"
-        Long bandId = bandService.get(1).id
+        println "D.1 ===========> ${Band.findAll().name.sort()}"
+        Band band = Band.findByName("Bad Company")
 
         when:
-        bandService.delete(bandId)
+        band.name = "A NEW NAME"
+        bandService.save(band)
         sessionFactory.currentSession.flush()
 
         then:
-        println " TEST 4  After delete names : ${Band.findAll().name}"
-        bandService.count() == old(Band.count()) - 1
+        println "D.2 ===========> ${Band.findAll().name.sort()}"
+        band.name == "A NEW NAME"
     }
 
+    void "test list objects after updating and the  object must not persist"() {
+        when:
+        List<Band> bandList = Band.findAll()
+
+        then:
+        println "E ===========> ${Band.findAll().name.sort()}"
+        bandList.size() > 0
+    }
 
 }
