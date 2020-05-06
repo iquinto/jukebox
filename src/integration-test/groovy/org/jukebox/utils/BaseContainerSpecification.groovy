@@ -4,6 +4,7 @@ import com.zaxxer.hikari.HikariConfig
 import com.zaxxer.hikari.HikariDataSource
 import org.testcontainers.containers.JdbcDatabaseContainer
 import org.testcontainers.containers.PostgreSQLContainer
+import org.testcontainers.spock.Testcontainers
 import spock.lang.Specification
 import javax.sql.DataSource
 import java.sql.ResultSet
@@ -14,6 +15,7 @@ import java.sql.Statement
  *  by: iquinto
  *  configuration of tescontainers (DB) for IT
  */
+@Testcontainers
 abstract class BaseContainerSpecification extends Specification{
     private static final Set<HikariDataSource> datasourcesForCleanup = new HashSet<>()
     private final static String DB_QUERY = new File('src/integration-test/groovy/org/jukebox//utils/base.sql').text

@@ -11,12 +11,14 @@ import org.springframework.mock.web.MockHttpServletRequest
 import org.springframework.mock.web.MockHttpServletResponse
 import org.springframework.web.context.WebApplicationContext
 import org.springframework.web.context.request.RequestContextHolder
+import org.testcontainers.spock.Testcontainers
 import spock.lang.Ignore
 
 /*
    iquinto: session must be mocked or inject in this TRAIT for controller IT
  */
 @CompileStatic
+@Testcontainers
 trait BaseRequestSpecification{
 
     @Autowired

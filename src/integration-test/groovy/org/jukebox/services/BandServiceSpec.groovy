@@ -7,12 +7,14 @@ import org.jukebox.Band
 import org.jukebox.BandService
 import org.jukebox.utils.BaseContainerSpecification
 import org.hibernate.SessionFactory
+import org.testcontainers.spock.Testcontainers
 import spock.lang.IgnoreIf
 
 
 @IgnoreIf({ System.getProperty('geb.env') })
 @Integration
 @Rollback
+@Testcontainers
 class BandServiceSpec extends BaseContainerSpecification {
 
     BandService bandService
@@ -30,7 +32,7 @@ class BandServiceSpec extends BaseContainerSpecification {
 
     void "test get object in DB"() {
         when:
-        Band band = bandService.get(1)
+        Band band = Band.findByName("Metallica")
 
         then:
         println "Name : ${band.name}"

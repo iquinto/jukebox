@@ -15,6 +15,7 @@ import org.springframework.web.context.WebApplicationContext
 import org.springframework.web.context.request.RequestContextHolder
 import org.testcontainers.containers.JdbcDatabaseContainer
 import org.testcontainers.containers.PostgreSQLContainer
+import org.testcontainers.spock.Testcontainers
 import spock.lang.Ignore
 import spock.lang.Specification
 
@@ -26,7 +27,9 @@ import java.sql.Statement
 /**
  * combination of BaseRequestSpecification and  BaseContainerSpecification for IT testing
  */
+
 @CompileStatic
+@Testcontainers
 abstract class BaseContainerIntegrationSpecification extends Specification{
 
     private static final Set<HikariDataSource> datasourcesForCleanup = new HashSet<>()
